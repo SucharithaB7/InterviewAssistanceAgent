@@ -55,7 +55,7 @@ def estimate_tokens(text):
     """Rough estimate of token count based on word count."""
     return len(text.split())
 
-
+#I am adding a chat persistance layer to my code
 # 📌 Generate Interview Prompts (Enhanced for Conversation)
 def generate_prompt(interview_type, resume_text="", job_description="", user_answers=None, **kwargs):
     """
